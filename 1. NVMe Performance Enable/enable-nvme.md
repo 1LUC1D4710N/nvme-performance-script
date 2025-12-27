@@ -317,7 +317,7 @@ Windows Registry Editor Version 5.00
 
 **Everything working well?** → Continue to the Disable guide for removal instructions when needed
 
-**[📖 Go to Disable Guide](../2.%20NVMe%20Performance%20Disable/disable-nvme.md)**
+**[📖 Go to Disable Guide](../2. NVMe Performance Disable/disable-nvme.md)**
 
 The Disable guide covers how to safely remove NVMe enhancements if you experience issues or want to revert to the default SCSI driver stack.
 

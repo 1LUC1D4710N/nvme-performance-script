@@ -309,9 +309,9 @@ Once complete cleanup is applied and restarted:
 
 **Need to enable NVMe instead?** → Go to Enable guide
 
-**[✅ Go to Enable Guide](../1.%20NVMe%20Performance%20Enable/enable-nvme.md)**
+**[✅ Go to Enable Guide](../1. NVMe Performance Enable/enable-nvme.md)**
 
 **Want to just disable without complete cleanup?** → Go to Disable guide
 
-**[📋 Go to Disable Guide](../2.%20NVMe%20Performance%20Disable/disable-nvme.md)**
+**[📖 Go to Disable Guide](../2. NVMe Performance Disable/disable-nvme.md)**
 
