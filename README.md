@@ -18,9 +18,9 @@ This guide enables the **Native NVMe driver stack** on Windows 11/Server 2025, p
 Choose your preferred method:
 
 | Method | File | Download | What It Does | Sources |
-|--------|------|----------|--------------|----------|
-| **PowerShell Script** | `enable-nvme.ps1` | [⬇️ Download PS1](enable/enable-nvme.ps1) | Creates System Restore Point, adds all 4 Class IDs, guides restart | Microsoft Tech Community, Windows Forums, Reddit, PC Gamer, Tom's Hardware, TechPowerUp, NotebookCheck |
-| **Registry File** | `enable-nvme.reg` | [⬇️ Download REG](enable/enable-nvme.reg) | Directly adds Class IDs 1176759950, 1853569164, 156965516, 735209102 | Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware |
+|--------|------|----------|--------------|---------|
+| **PowerShell Script** | `enable-nvme.ps1` | [⬇️ Download PS1](enable-nvme.ps1) | Creates System Restore Point, adds all 4 Class IDs, guides restart | Microsoft Tech Community, Windows Forums, Reddit, PC Gamer, Tom's Hardware, TechPowerUp, NotebookCheck |
+| **Registry File** | `enable-nvme.reg` | [⬇️ Download REG](enable-nvme.reg) | Directly adds Class IDs 1176759950, 1853569164, 156965516, 735209102 | Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware |
 
 **Class IDs Added:**
 - ✅ **1176759950** - Primary Native NVMe (Microsoft Official)
@@ -251,7 +251,7 @@ Windows Registry Editor Version 5.00
 ; NVMe Native Driver Registry Enhancement - ADDITION
 ; Source: Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware
 ; Created restore point before applying? YES - PROCEED / NO - CANCEL THIS
-;
+; 
 ; Class ID 1176759950: Official Microsoft (Windows Server 2025)
 ; Class ID 1853569164: Community-discovered (Windows 11 25H2)
 ; Class ID 156965516: Community-discovered (Windows 11 25H2)
@@ -315,5 +315,8 @@ Windows Registry Editor Version 5.00
 
 ## Next Steps
 
-📖 **[Disable Guide](disable/disable-nvme.md)** - Remove NVMe enhancements if needed  
-📖 **[Cleanup Guide](cleanup/cleanup-nvme.md)** - Complete system cleanup
+**Everything working well?** → Continue to the Disable guide for removal instructions when needed
+
+**[📖 Go to Disable Guide](../2.%20NVMe%20Performance%20Disable/disable-nvme.md)**
+
+The Disable guide covers how to safely remove NVMe enhancements if you experience issues or want to revert to the default SCSI driver stack.
