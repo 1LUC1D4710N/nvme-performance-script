@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; NVMe Native Driver Registry Enhancement - REMOVAL
+; Source: Microsoft Tech Community, Windows Forums
+; Removes all NVMe optimization Class IDs
+
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides]

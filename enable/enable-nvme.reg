@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+; NVMe Native Driver Registry Enhancement - ADDITION
+; Source: Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware
+; Created restore point before applying? YES - PROCEED / NO - CANCEL THIS
+;
+; Class ID 1176759950: Official Microsoft (Windows Server 2025)
+; Class ID 1853569164: Community-discovered (Windows 11 25H2)
+; Class ID 156965516: Community-discovered (Windows 11 25H2)
+; Class ID 735209102: Community-discovered (Windows 11 25H2)
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides]
+"1176759950"=dword:00000001
+"1853569164"=dword:00000001
+"156965516"=dword:00000001
+"735209102"=dword:00000001

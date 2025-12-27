@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; NVMe Native Driver Registry Enhancement - COMPLETE CLEANUP
+; Removes all NVMe optimization Class IDs and performs complete system cleanup
+
+; Remove all Class IDs
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides]
