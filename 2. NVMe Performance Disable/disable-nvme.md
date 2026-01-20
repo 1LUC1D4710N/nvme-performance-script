@@ -299,7 +299,7 @@ Once disabled and restarted:
 
 **Changed your mind?** → Go back and enable NVMe instead
 
-**[✅ Go Back to Enable Guide](../1.%20NVMe%20Performance%20Enable/enable-nvme.md)**
+**[✅ Go Back to Enable Guide](https://github.com/1LUC1D4710N/nvme-performance-script/blob/main/1.%20NVMe%20Performance%20Enable/enable-nvme.md)**
 
 ---
 
@@ -307,7 +307,6 @@ Once disabled and restarted:
 
 **Want to delete the ENTIRE registry key?** → Continue to the Cleanup guide
 
-**[🔥 Go to Cleanup Guide](../3.%20NVMe%20Performance%20Cleanup/cleanup-nvme.md)**
+**[🔥 Go to Cleanup Guide](https://github.com/1LUC1D4710N/nvme-performance-script/blob/main/3.%20NVMe%20Performance%20Cleanup/cleanup-nvme.md)**
 
 The Cleanup guide performs a complete deletion of the entire registry key path - the most aggressive cleanup option. Use this if you want a fresh start with no registry remnants.
-
