@@ -1,6 +1,6 @@
 # NVMe Registry Enhancement - ENABLE GUIDE
 
-**Version: 5.3**
+**Version: 6.4**
 
 ## 🚀 Quick Overview
 
@@ -315,11 +315,45 @@ Windows Registry Editor Version 5.00
 
 ---
 
-## Next Steps
+# NVMe Registry Enhancement - DISABLE GUIDE
 
-**Everything working well?** → Continue to the Disable guide for removal instructions when needed
+## 📋 What This Guide Covers
 
-**[📋 Go to Disable Guide](disable-nvme.md)**
+This guide helps you **safely disable** the Native NVMe driver enhancements you previously enabled. Use this if:
 
-The Disable guide covers how to safely remove NVMe enhancements if you experience issues or want to revert to the default SCSI driver stack.
+✅ **When to use:**
+- You experience issues with the Native NVMe driver
+- You want to revert to the default SCSI driver stack
+- You need to troubleshoot system instability
+- Performance issues appeared after enabling NVMe
+- Your SMART monitoring tool isn't working properly
+
+✅ **What you get:**
+- **Removes the 4 Class ID values** (1176759950, 1853569164, 156965516, 735209102)
+- Registry key structure remains (empty but present)
+- Return to default `StorNVMe.sys` (SCSI emulation driver)
+- System Restore option for instant rollback
+- Clear verification steps
+- Easy to re-enable later if needed
+
+---
+
+## 📥 QUICK DOWNLOAD
+
+Choose your preferred method:
+
+| Method | File | Download | What It Does | Sources |
+|--------|------|----------|--------------|---------|
+| **PowerShell Script** | `disable-nvme.ps1` | [⬇️ Download PS1](2.%20NVMe%20Performance%20Disable/disable-nvme.ps1) | Removes the 4 Class ID values only (keeps registry key structure intact) | Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware |
+| **Registry File** | `disable-nvme.reg` | [⬇️ Download REG](2.%20NVMe%20Performance%20Disable/disable-nvme.reg) | Removes Class IDs 1176759950, 1853569164, 156965516, 735209102 values | Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware |
+
+**Class IDs Removed:**
+- ✅ **1176759950** - Primary Native NVMe
+- ✅ **1853569164** - Enhancement 1
+- ✅ **156965516** - Enhancement 2
+- ✅ **735209102** - Enhancement 3 KEY
+
+**Reverts to:** `StorNVMe.sys` (Default SCSI emulation driver)
+
+Both files are pre-configured and ready to use. Download one, save to Desktop, and run as Administrator.
 
