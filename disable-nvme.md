@@ -27,8 +27,8 @@ Choose your preferred method:
 
 | Method | File | Download | What It Does | Sources |
 |--------|------|----------|--------------|---------|
-| **PowerShell Script** | `disable-nvme.ps1` | [⬇️ Download PS1](disable-nvme.ps1) | Removes the 4 Class ID values only (keeps registry key structure intact) | Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware |
-| **Registry File** | `disable-nvme.reg` | [⬇️ Download REG](disable-nvme.reg) | Removes Class IDs 1176759950, 1853569164, 156965516, 735209102 values | Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware |
+| **PowerShell Script** | `disable-nvme.ps1` | [⬇️ Download PS1](2.%20NVMe%20Performance%20Disable/disable-nvme.ps1) | Removes the 4 Class ID values only (keeps registry key structure intact) | Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware |
+| **Registry File** | `disable-nvme.reg` | [⬇️ Download REG](2.%20NVMe%20Performance%20Disable/disable-nvme.reg) | Removes Class IDs 1176759950, 1853569164, 156965516, 735209102 values | Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware |
 
 **Class IDs Removed:**
 - ✅ **1176759950** - Primary Native NVMe
@@ -299,7 +299,7 @@ Once disabled and restarted:
 
 **Changed your mind?** → Go back and enable NVMe instead
 
-**[✅ Go Back to Enable Guide](https://github.com/1LUC1D4710N/nvme-performance-script/blob/main/1.%20NVMe%20Performance%20Enable/enable-nvme.md)**
+**[✅ Go Back to Enable Guide](README.md)**
 
 ---
 
@@ -307,6 +307,6 @@ Once disabled and restarted:
 
 **Want to delete the ENTIRE registry key?** → Continue to the Cleanup guide
 
-**[🔥 Go to Cleanup Guide](https://github.com/1LUC1D4710N/nvme-performance-script/blob/main/3.%20NVMe%20Performance%20Cleanup/cleanup-nvme.md)**
+**[🔥 Go to Cleanup Guide](cleanup-nvme.md)**
 
 The Cleanup guide performs a complete deletion of the entire registry key path - the most aggressive cleanup option. Use this if you want a fresh start with no registry remnants.

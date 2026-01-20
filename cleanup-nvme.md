@@ -38,8 +38,8 @@ Choose your preferred method:
 
 | Method | File | Download | What It Does | Sources |
 |--------|------|----------|--------------|---------|
-| **PowerShell Script** | `cleanup-nvme.ps1` | [⬇️ Download PS1](cleanup-nvme.ps1) | **Deletes entire registry key path** - removes key + all values + subkeys, requires YES confirmation | Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware |
-| **Registry File** | `cleanup-nvme.reg` | [⬇️ Download REG](cleanup-nvme.reg) | **Deletes entire registry key** - removes complete `FeatureManagement\Overrides` key structure | Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware |
+| **PowerShell Script** | `cleanup-nvme.ps1` | [⬇️ Download PS1](3.%20NVMe%20Performance%20Cleanup/cleanup-nvme.ps1) | **Deletes entire registry key path** - removes key + all values + subkeys, requires YES confirmation | Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware |
+| **Registry File** | `cleanup-nvme.reg` | [⬇️ Download REG](3.%20NVMe%20Performance%20Cleanup/cleanup-nvme.reg) | **Deletes entire registry key** - removes complete `FeatureManagement\Overrides` key structure | Microsoft Tech Community, Windows Forums, PC Gamer, Tom's Hardware |
 
 **What Gets Deleted:**
 - ✅ **Complete Key Path:** `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Policies\Microsoft\FeatureManagement\Overrides`
@@ -309,8 +309,8 @@ Once complete cleanup is applied and restarted:
 
 **Need to enable NVMe instead?** → Go to Enable guide
 
-**[✅ Go to Enable Guide](https://github.com/1LUC1D4710N/nvme-performance-script/blob/main/1.%20NVMe%20Performance%20Enable/enable-nvme.md)**
+**[✅ Go to Enable Guide](README.md)**
 
 **Want to just disable without complete cleanup?** → Go to Disable guide
 
-**[📋 Go to Disable Guide](https://github.com/1LUC1D4710N/nvme-performance-script/blob/main/2.%20NVMe%20Performance%20Disable/disable-nvme.md)**
+**[📋 Go to Disable Guide](disable-nvme.md)**
